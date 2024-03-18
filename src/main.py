@@ -2,7 +2,7 @@ from utils import load_json, unpack
 import os
 from config import ROOT_DIR
 
-PATH_TO_PROD = os.path.join(ROOT_DIR, 'src', 'products.json')
+PATH_TO_PROD = os.path.join(ROOT_DIR, 'src', 'product.json')
 
 
 def main():
