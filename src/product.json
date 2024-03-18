@@ -2,21 +2,21 @@
   {
     "name": "Ноутбуки",
     "overview": "Ноутбук, для работы и повседневной жизни, подходит для пользования почти всех возрастов, можно смотреть видео, играть в игры, работать не выходя из дома",
-    "products": [
+    "goods": [
       {
-        "name": "Lenovo Think T15p",
+        "name": "Lenovo Think T",
         "overview": "ssd - 1TB, Черный, Процессор Intel® Core, Вес - 2.5кг",
         "price": 93000.0,
         "quantity": 8
       },
       {
-        "name": "MacBook Air 15",
+        "name": "MacBook Air",
         "overview": "ssd - 2TB, Полуночный черный, Процессор - Apple M2 (8-Core CPU, 10-Core GPU), Вес - 1.5кг",
         "price": 290000.0,
         "quantity": 6
       },
       {
-        "name": "Thunderobot 911 M G3 Pro",
+        "name": "Thunderobot Pro",
         "overview": "ssd - 512МB, Игровой, Процессор Intel Core i5 13500H 2.6 ГГц Серый, Вес - 2.1кг" ,
         "price": 109000.0,
         "quantity": 10
@@ -26,9 +26,9 @@
   {
     "name": "Смартфоны",
     "overview": "смартфоны предназначены не только для развлечений, но и для облегчения повседневной жизни, смартфон для современного человека это все!",
-    "products": [
+    "goods": [
       {
-        "name": "Apple iPhone 15 Pro 512GB",
+        "name": "Apple iPhone",
         "overview": "Память - 512 ГБ, Цвет - титановый, Камера - 48/12/12",
         "price": 167000.0,
         "quantity": 12
