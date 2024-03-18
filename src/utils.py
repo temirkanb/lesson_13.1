@@ -14,10 +14,10 @@ def unpack(json_list):
     for purchase in json_list:
         product_from = []
         for household in purchase.get('products'):
-            product = Product(household['name'], household['description'],
+            product = Product(household['name'], household['overview'],
                               household['price'], household['quantity'])
             product_from.append(product)
-        category = Category(list['name'], list['description'], product_from)
+        category = Category(list['name'], list['overview'], product_from)
         category_list.append(category)
         products_list.append(product_from)
     return category_list, products_list
