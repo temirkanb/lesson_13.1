@@ -1,8 +1,8 @@
 class Category:
     """класс содержащий название описание и товары"""
-    name: 'str'
-    overview: 'str'
-    goods: 'list'
+    name: 'str' or 'int'  # название
+    overview: 'str'  # описание
+    goods: 'list'  # товары
 
     category_count = 0
     products = 0
@@ -16,5 +16,5 @@ class Category:
         Category.products += len('goods')
 
     def __repr__(self):
-        return (f"Категория - {self.name}, описание - {self.overview},"
-                f" продукты - {self.goods}")
+        return (f"Название - {self.name}, Описание - {self.overview},"
+                f" Товары - {self.goods}")
